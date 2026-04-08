@@ -1,0 +1,56 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.rlib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.metals/
+.bloop/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# dependencies
+node_modules/
+.npm
+package-lock.json
+yarn.lock
+
+# Testing
+.coverage/
+*.prof
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
